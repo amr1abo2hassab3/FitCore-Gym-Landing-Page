@@ -1,0 +1,32 @@
+/* ================= VARIABLES ================= */
+
+:root {
+    /* Colors */
+    --color-black: #000;
+    --color-white: #fff;
+    --color-dark: #101828;
+    --color-gray: #4a5565;
+
+    /* Backgrounds */
+    --bg-light: #f8fafc;
+
+    /* Font */
+    --font-main: 'Inter', sans-serif;
+
+    /* Font sizes */
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 20px;
+    --fs-xl: 36px;
+
+    /* Spacing */
+    --space-sm: 8px;
+    --space-md: 16px;
+    --space-lg: 32px;
+    --space-xl: 64px;
+
+    /* Radius */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+}

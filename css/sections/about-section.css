@@ -1,0 +1,159 @@
+/* ================= ABOUT SECTION ================= */
+
+.about .about-header {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.about .about-header h2 {
+    font-size: 36px;
+    margin-bottom: 16px;
+    color: var(--color-dark);
+    font-weight: 700;
+}
+
+.about .about-header p {
+    font-size: 18px;
+    color: var(--color-gray);
+    line-height: 1.6;
+}
+
+/* ================= GRID LAYOUT ================= */
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.more-about {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+}
+
+/* ================= CARD ================= */
+
+.about-box {
+    padding: 32px;
+    background-color: #dbeafe;
+    border-radius: 16px;
+    min-height: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.more-caption-gym {
+    padding-left: 24px;
+    margin-bottom: 16px;
+    border-left: 4px solid var(--color-dark);
+}
+
+
+
+/* ================= ICON ================= */
+
+.about-icon {
+    width: 64px;
+    height: 64px;
+    background-color: #155dfc;
+    margin: 24px auto;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-inside {
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+/* ================= TEXT ================= */
+
+.about-content h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-dark);
+    margin-bottom: 12px;
+}
+
+.about-content p {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-gray);
+    line-height: 1.6;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.more-text h3 {
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+
+.more-caption-gym h4 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+
+/* ================= VARIANTS ================= */
+
+.about-box.box2 {
+    background-color: #a4f4cf;
+}
+
+.about-box.box3 {
+    background-color: #f3e8ff;
+}
+
+.about-icon.about-icon2 {
+    background-color: #009966;
+}
+
+.about-icon.about-icon3 {
+    background-color: #9810fa;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+/* ================= images ================= */
+
+.img-more {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.img-more img{
+    width: 100%;
+    height: 100%;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (min-width: 768px) {
+    .about-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .more-about {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .about-content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

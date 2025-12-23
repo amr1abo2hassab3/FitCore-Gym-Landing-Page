@@ -1,0 +1,10 @@
+
+@import "./base/reset.css" ;
+@import "./base/variables.css";
+@import "./base/global.css";
+
+@import "./sections/hero-section.css";
+@import "./sections/about-section.css";
+@import "./sections/our-members.css";
+@import "./sections/contact-section.css";
+@import "./sections/footer-section.css";

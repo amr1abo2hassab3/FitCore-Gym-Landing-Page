@@ -1,0 +1,110 @@
+.contact-header {
+    text-align: center;
+    max-width: 700px;
+    margin-inline: auto;
+    margin-bottom: 48px;
+}
+
+.contact-header h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    margin-bottom: 16px;
+    color: var(--color-dark);
+    font-weight: 700;
+}
+
+.contact-header p {
+    font-size: 18px;
+    color: var(--color-gray);
+    line-height: 1.6;
+}
+
+/* ================= FORM ================= */
+
+.contact-form {
+    padding: 48px;
+    max-width: 700px;
+    margin-inline: auto;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #364153;
+    font-weight: 600;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    padding: 16px 20px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+    border-color: #155dfc;
+    box-shadow: 0 0 0 2px rgba(21, 93, 252, 0.15);
+}
+
+/* ================= NAME GRID ================= */
+
+.contact-form .form-name {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 1fr;
+}
+
+/* ================= BUTTON ================= */
+
+.contact-form button {
+    padding: 16px 32px;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: var(--color-dark);
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #111;
+    transform: translateY(-2px);
+}
+
+/* ================= FOOTER TEXT ================= */
+
+.contact-form p {
+    text-align: center;
+    font-size: 14px;
+    color: var(--color-gray);
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (min-width: 768px) {
+    .contact-form .form-name {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
