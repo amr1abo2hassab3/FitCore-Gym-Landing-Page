@@ -1,51 +1,39 @@
-# 🏋️ FitCore Gym Landing Page
+## 🏋️ FitCore Gym – Landing Page
 
-FitCore Gym is a modern and responsive landing page designed for a fitness gym.  
-This project was built as **Assignment 2**, focusing on applying HTML & CSS concepts learned during the second week.
+[🔗 Live Demo](https://amr1abo2hassab3.github.io/FitCore-Gym-Landing-Page/)
 
-The main goal of this landing page is to introduce users to the gym, highlight its strengths, and encourage them to sign up through a membership form.
+FitCore Gym is a responsive landing page built as part of a frontend assignment.  
+The project focuses on translating a provided UI design into clean, structured, and responsive code using HTML and CSS.
 
----
+### 🔍 Project Goals
+- Present gym services in a clear and engaging way
+- Highlight core strengths and competitive advantages
+- Encourage user conversion through a membership form
 
-## 🚀 Project Sections
+### 🧩 Sections
+- Hero Section with CTA
+- Why Choose Us
+- Testimonials (Social Proof)
+- Membership Signup Form
 
-### 1️⃣ Hero Section
-- Attractive visuals
-- Clear headline and short description
-- Call-to-action button to grab user attention
-
-### 2️⃣ Why Choose Us
-- Highlights the gym’s key features
-- Shows what makes FitCore stand out from competitors
-
-### 3️⃣ Testimonials
-- Displays feedback from previous clients
-- Provides social proof and builds trust
-
-### 4️⃣ Membership Form
-- The core objective of the landing page
-- Collects user information to encourage gym enrollment
-
----
-
-## 🛠️ Technologies Used
+### 🛠️ Technologies
 - HTML5
-- CSS3 (Flexbox & Grid)
-- Responsive Design (Mobile First)
-- Clean & structured layout
+- CSS3
+- Flexbox & Grid
+- Mobile-First Responsive Design
+
+### ✨ Highlights
+- Semantic HTML structure
+- Modular and maintainable CSS files
+- Pixel-perfect implementation based on provided design
+- Fully responsive across different screen sizes
+
+### 🚀 Future Improvements
+- Rebuild the project using React
+- Convert sections into reusable components
+- Add form validation and interactivity
 
 ---
 
-## 🎯 Assignment Requirements
-The landing page was implemented to exactly match the provided design:
-🔗 https://tinyurl.com/fit-core-gym  
-
-Images used in the project:
-🖼 https://tinyurl.com/fit-core-gym-images  
-
-
----
-
-## 📌 Author
-**Amr Abo Hassab**  
-Frontend Developer 🚀
+👨‍💻 Author: **Amr Abo Hassab**  
+Frontend Developer
